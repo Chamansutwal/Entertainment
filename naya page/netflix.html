@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Netflix - Home</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #header img {
+            width: 120px;
+        }
+     
+        .content {
+            text-align: center;
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+            
+        }
+        .ps{
+            ul{
+            list-style-type: none;
+            padding: 50%;
+            border: none;
+          
+          }
+        }
+            li {
+                 display: inline;
+                  margin-right: 10px;
+            }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+           form{
+            padding: 100px;
+            border: 2px;
+        
+           }
+         
+        
+        p {
+            color: #999;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .featured-movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .featured-movie {
+            margin-left:  300px;
+            margin-bottom: 100px; 
+            border-bottom: solid;
+            border-bottom: thick double whitesmoke;   
+        }
+
+        .featured-movie img {
+            width: 200px;
+            border-radius: 4px;
+            transition: transform 0.2s ease;
+            cursor: pointer;
+            
+        }
+       
+          
+
+        .featured-movie img:hover {
+            transform: scale(1.05);
+           
+          
+        }
+
+        #footer {
+            background-color: #00000000;
+            color: #999;
+            padding: 20px;
+         
+        }
+            
+        
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 100px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 80px;
+      border-radius: 3px;
+      background-color: #e50914;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    </style>
+              
+</head>
+<body style=" background-image: url(bgnet.jpg); width: 100%; height: 100%;">
+  
+    <div id="header">
+        <img style="width: 10%;height:20%;" src="log 1.jpg" alt="Netflix Logo">
+    </div>
+    <header>
+        <nav>
+         <div class="ps">
+            <ul>
+                <li><a style="text-decoration: none;"; href="/Home">Home</a></li>
+                <li><a style="text-decoration: none;"; href="/New movies">New movies</a></li>
+                <li><a style="text-decoration: none;"; href="/Series">Series</a></li>
+                <li><a style="text-decoration: none;"; href="/Mylist">Mylist</a></li>
+            </ul>
+         </div>
+         </nav>
+        </header>
+   <div class="content">
+<h1>Welcome to Netflix !</h1>
+<p>
+    Unlimited live streaming and moives !
+</p>
+   </div>
+    
+        <form >
+            <div  style="text-align: center;">
+                <h1>Ready to watch? Enter your email to create or restart your membership </h1>
+            </div>
+            <div style="text-align: center;">
+            <input  style="height: 30px;width: 50%;"type="Email" name="Email" placeholder="Email address">
+            <a href=""class="btn"></a>
+             <button style="background-color: red;padding: 6px;">Get Saterted</button>
+            </div> 
+        </form>
+        <div class="featured-movies">
+            <div class="featured-movie">
+              <label for="image"><i><h1>DAREDEVIL</h1></i></label>
+              <input type="image" id="image" name="image">
+               <img style="width: 600px;height: 400px; display: block;"src="cd.jpg" alt="Movie 1">
+                
+            </div>
+            <br>
+            <div class="featured-movie">
+              <label for="image"><i><h1>CHERNOBYL SEASON 1</h1></i></label>
+              <input type="image" id="image" name="image">
+                <img style="width: 600px;height: 400px;"src="ma.jpg" alt="Movie 2">
+            </div>
+            <div class="featured-movie">
+              <label for="image"><i><h1>DASARA</h1></i></label>
+              <input type="image" id="image" name="image">
+                <img style="width: 600px;height: 400px;"src="gh2.jpg" alt="Movie 3">
+            </div>
+            <div class="featured-movie">
+              <label for="image"><i><h1>ADIPURUSH</h1></i></label>
+              <input type="image" id="image" name="image">
+                <img style="width: 600px;height: 400px;" src="gh1.jpg" alt="Movie 4">
+            </div>
+            <div class="featured-movie">
+              <label for="image"><i><h1>TU JHOOTHI MAIN MAKKAR</h1></i></label>
+              <input type="image" id="image" name="image">
+                <img style="width: 600px;height: 400px;" src="ba.jpg" alt="Movie 5">
+            </div>
+            <div clas="featured-movie">
+              <label for="image"><i><h1>QISMAT</h1></i></label>
+              <input type="image" id="image" name="image">
+                <img style="width: 600px;height: 400px; margin-left: 300px; border-bottom: solid;  border-bottom: thick double whitesmoke;" src="bs3.jpg" alt="Movie 6">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <footer>
+       
+        <div style="background-color: rgba(0, 0, 0, 0); margin-top: 50px;margin-left: 0px; width: 500px; height: 300px;" class="container">
+          <div class="row">
+            <div class="col">
+              <h3>About</h3>
+              <ul>
+                <li><a style="text-decoration: none;"; href="#">About Netflix</a></li>
+        
+                <li><a style="text-decoration: none;"; href="#">Contact Us</a></li>
+      
+                <li><a style="text-decoration: none;"; href="#">Privacy Policy</a></li>
+         
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Help</h3>
+              <ul>
+                <li><a style="text-decoration: none;"; href="#">FAQ</a></li>
+                <li><a style="text-decoration: none;"; href="#">Support</a></li>
+                <li><a style="text-decoration: none;"; href="#">Terms of Use</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Social Media</h3>
+              <ul>
+                <li><a style="text-decoration: none;"; href="#">Facebook</a></li>
+                <li><a style="text-decoration: none;"; href="#">Twitter</a></li>
+                <li><a style="text-decoration: none;"; href="#">Instagram</a></li>
+                <section style="margin-left: 250px;">Questions? &#9742; 000-800-919-1694</section>
+                <p style="text-align: right; color: aqua;">
+                 <i><h3 style="color: aqua;">Created by Chaman</h3></i>
+               </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+              </ul>
+              <form>
+                <select   style="margin-bottom: 100px; border-color: rgb(43, 183,226); background-color: black;color: white;"
+                name="language">
+                  <option value="English"><h6>English</h6></option>
+                  <option value="Hindi"><h6>Hindi</h6></option>
+                </select>
+                </form>
+            </div>
+          </div>
+        </div>
+      
+    </footer>
+       
+   
+</body>
+
+</html>
